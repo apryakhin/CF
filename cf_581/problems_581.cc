@@ -22,6 +22,7 @@ class ProblemA {
   int solve(const std::string& number) { return -1; }
 };
 
+// Base test case.
 TEST(ProblemATest, BaseTest) {
   ProblemA problemA;
    EXPECT_THAT(problemA.solve("101"), 0);
